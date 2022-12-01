@@ -1,3 +1,2 @@
-🔴 Demo
+🔴 Live Demo https://yumitdemir.github.io/Wargon/
 
-🧪 Live Demo https://yumitdemir.github.io/Wargon/

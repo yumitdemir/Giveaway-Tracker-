@@ -65,13 +65,32 @@ function apiCall(apiLink) {
             location.href = `${data[number].gamerpower_url}`;
           }, 500);
         });
+        let color;
+        if ((data[number].status = "Active")) {
+          color = "success";
+        } else {
+          color = "danger";
+        }
         cards.innerHTML = ` <div class="card mb-3 shadow ">
+        <p class="badge bg-main badge-text rounded-0">${data[number].type}</p>
         <img src="${data[number].thumbnail}" alt="" class="card-img-top" />
         <div class="card-body">
+        <p class="badge bg-black badge-text platform-badge">${
+          data[number].platforms
+        }</p>
             <h5 class="card-title">${data[number].title}</h5>
             <p class="card-text">
-            ${data[number].description.slice(0, 61)}...
+            ${data[number].description.slice(0, 90)}...
             </p>
+            <div class="card-footer">
+            
+            <div id="badges">
+            
+            
+            <p class="badge bg-${color} badge-text">${data[number].status}</p>
+            </div>
+          
+        </div>
         </div>
     </div>`;
 

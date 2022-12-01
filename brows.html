@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c1ce842043.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylebrows.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand border-bottom" href="#"
+          ><h1 id="logo">Wargon</h1></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 border-bottom">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+          <span class="navbar-text border-bottom" id="github"
+            ><i class="fa-brands fa-github" id="github-logo"></i> yumitdemir
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row" id="cards-animation">
+        <div class="col-2 text-white ps-3" id="left-middle">
+          <h2 class="filter-titles mb-4 filter-headers">Platforms</h2>
+          <ul class="list-group-flush mb-5" id="list">
+            <li class="list-group-item mb-3 select" id="all-platform">
+              <i class="fa-solid fa-globe"></i> All
+            </li>
+            <li class="list-group-item mb-3" id="steam">
+              <i class="fa-brands fa-steam"></i> Steam
+            </li>
+            <li class="list-group-item mb-3" id="pc">
+              <i class="fa-solid fa-laptop"></i> PC
+            </li>
+            <li class="list-group-item mb-3" id="playStation">
+              <i class="fa-brands fa-playstation"></i> PlayStation
+            </li>
+            <li class="list-group-item mb-3" id="xbox">
+              <i class="fa-brands fa-xbox"></i> Xbox
+            </li>
+          </ul>
+          <h2 class="mb-4 filter-headers">Types</h2>
+          <ul class="list-group-flush mb-3" id="list">
+            <li class="list-group-item mb-3 select-type" id="all-types">
+              <i class="fa-solid fa-globe"></i> All
+            </li>
+            <li class="list-group-item mb-3" id="games">
+              <i class="fas fa-gamepad"></i> Games
+            </li>
+            <li class="list-group-item mb-3" id="loots">
+              <i class="fas fa-box"></i> In-game Loots
+            </li>
+          </ul>
+        </div>
+        <div class="col-10" id="right-middle">
+          <div class="d-flex gap-3 ms-5 justify-content-between">
+            <div class="dropdown show">
+              <a
+                class="btn btn-secondary dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sort by: Popularity
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#" id="popularity">Popularity</a>
+                <a class="dropdown-item" href="#" id="date">Release date</a>
+                <a class="dropdown-item" href="#" id="value-rarity"
+                  >Value & Rarity
+                </a>
+              </div>
+            </div>
+            <div class="d-flex gap-3" id="next-prev">
+              <button id="prev-btn" class="btn btn-dark">
+                <i class="fa-solid fa-arrow-left"></i> Prev
+              </button>
+
+              <button id="next-btn" class="btn btn-dark">
+                Next <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="container mt-3">
+            <div class="row" id="cards-container"></div>
+            f
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="browsApp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+@import url("https://fonts.cdnfonts.com/css/blackadder-itc");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f1011 !important;
+}
+
+nav.navbar {
+  background-color: #0f1011 !important;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#logo {
+  font-family: "Bungee Inline", cursive;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+#github-logo {
+  font-size: 22px;
+  margin: 0;
+}
+li {
+  cursor: pointer;
+}
+.navbar-nav > li > a:hover {
+  color: black;
+}
+.navbar-nav > li:first-child {
+  pointer-events: none;
+}
+.navbar-nav > li:first-child a {
+  color: white;
+}
+#github {
+  padding: 5px;
+}
+#github:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+li:hover {
+  background-color: white;
+  color: black !important;
+}
+
+#top {
+  display: inline-block;
+  margin: 0;
+}
+
+#left-middle {
+  margin-top: 70px;
+}
+#right-middle {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#right-middle h1 {
+  display: inline;
+}
+#list {
+  padding-left: 0;
+}
+#list li {
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+/*? Animation*/
+nav {
+  animation: nav-load 700ms ease-out;
+}
+nav li,
+#github p,
+#github i {
+  animation-name: nav-link-load;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  animation-delay: 100ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.filter-headers {
+  font-size: 3.2vw;
+  animation: filter-load 85ms ease-in 550ms;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation-fill-mode: forwards;
+  text-shadow: 0px 0px 19px rgba(204, 204, 204, 0.452);
+}
+#left-middle ul li {
+  animation: filter-li 200ms ease-in 550ms;
+  opacity: 0;
+  transform: translateY(-60px);
+  animation-fill-mode: forwards;
+  text-shadow: 0px 0px 19px rgba(204, 204, 204, 0.432);
+}
+
+#title {
+  font-size: 5vmax;
+  color: white;
+  padding-left: 5rem;
+  animation: title 200ms ease-in 550ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  font-family: "Blackadder ITC", sans-serif;
+  text-shadow: 0px 0px 19px rgb(204, 204, 204);
+}
+#cards-animation {
+  animation: filter-li 200ms ease-in 400ms;
+  opacity: 0;
+  transform: translateY(-60px);
+  animation-fill-mode: forwards;
+}
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes nav-link-load {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes filter-load {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes filter-li {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cards-div {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 1fr;
+  height: 25vw;
+  overflow: hidden;
+}
+.card-img-top {
+  height: 40%;
+  object-fit: cover;
+}
+
+#next-prev-buttons {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.select,
+.select-type {
+  color: black !important;
+  background-color: white !important;
+}
+#next-prev {
+  margin-right: 50px;
+}
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+
+  border: solid 2px rgba(8, 252, 167, 1);
+}
+
+#click-card-monster {
+  width: 70%;
+  height: 25vw;
+  animation: filter-li ease-in 400ms;
+  opacity: 0;
+  transform: translateY(-60px);
+  animation-fill-mode: forwards;
+  -webkit-box-shadow: 0px 0px 103px -43px rgba(8, 252, 167, 1);
+  -moz-box-shadow: 0px 0px 103px -43px rgba(8, 252, 167, 1);
+  box-shadow: 0px 0px 103px -43px rgba(8, 252, 167, 1);
+}

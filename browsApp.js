@@ -72,7 +72,9 @@ function apiCall(apiLink) {
           color = "danger";
         }
         cards.innerHTML = ` <div class="card mb-3 shadow ">
-        <p class="badge bg-main badge-text rounded-0">${data[number].type}</p>
+        <p class="badge bg-main badge-text rounded-0 badge-type">${
+          data[number].type
+        }</p>
         <img src="${data[number].thumbnail}" alt="" class="card-img-top" />
         <div class="card-body">
         <p class="badge bg-black badge-text platform-badge">${

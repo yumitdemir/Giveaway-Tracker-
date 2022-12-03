@@ -254,3 +254,6 @@ nav li,
 .bg-main {
   background-color: rgb(141, 141, 141);
 }
+.badge-type {
+  font-size: 1vw;
+}

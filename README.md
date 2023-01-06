@@ -15,12 +15,11 @@ I let [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/b
 
 
 ## Screenshots of The Website
+## Tablet Size
 ![3](https://user-images.githubusercontent.com/108368506/211098965-db259460-1a18-42fb-8375-d65c8dd450ea.PNG)
-<pre>                               </pre>
+## Desktop Size
 ![4](https://user-images.githubusercontent.com/108368506/211098976-e5081ecb-d51d-4cec-96d7-3eb7e0db5c7f.PNG)
-
-
-<pre>                               </pre>
+## Small Tablet/Phone Size
 ![1](https://user-images.githubusercontent.com/108368506/211098980-2f663f0f-4f19-4c10-86fa-d6950fa94123.png)
-<pre>                               </pre>
+## Phone Size
 ![2](https://user-images.githubusercontent.com/108368506/211098981-23feada2-94b5-4c0c-b343-eabc622dbd80.PNG)

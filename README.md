@@ -18,8 +18,8 @@ I let [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/b
 ![3](https://user-images.githubusercontent.com/108368506/211098965-db259460-1a18-42fb-8375-d65c8dd450ea.PNG)
 <pre>                               </pre>
 ![4](https://user-images.githubusercontent.com/108368506/211098976-e5081ecb-d51d-4cec-96d7-3eb7e0db5c7f.PNG)
-<pre>                               </pre>
-![3](https://user-images.githubusercontent.com/108368506/205437858-b7d0fec2-cdcb-4154-af20-d2e61c3c2d12.PNG)
+
+
 <pre>                               </pre>
 ![1](https://user-images.githubusercontent.com/108368506/211098980-2f663f0f-4f19-4c10-86fa-d6950fa94123.png)
 <pre>                               </pre>

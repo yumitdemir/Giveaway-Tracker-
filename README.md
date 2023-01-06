@@ -9,13 +9,18 @@ I let [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/b
 ![performance 2](https://user-images.githubusercontent.com/108368506/205437865-cbca7d47-5614-41ce-b57a-d502392ff598.PNG)
 ![performance](https://user-images.githubusercontent.com/108368506/205437867-f0b5e54b-bed9-450c-af81-b17bb6cf7d9c.PNG)
 
+
+
+
+
+
 ## Screenshots of The Website
-![1](https://user-images.githubusercontent.com/108368506/205437860-ad8e1eb5-e751-4727-8322-aa7676748301.PNG)
+![3](https://user-images.githubusercontent.com/108368506/211098965-db259460-1a18-42fb-8375-d65c8dd450ea.PNG)
 <pre>                               </pre>
-![2](https://user-images.githubusercontent.com/108368506/205437862-2ec66bb0-7847-437c-b394-89e30b1899af.PNG)
+![4](https://user-images.githubusercontent.com/108368506/211098976-e5081ecb-d51d-4cec-96d7-3eb7e0db5c7f.PNG)
 <pre>                               </pre>
 ![3](https://user-images.githubusercontent.com/108368506/205437858-b7d0fec2-cdcb-4154-af20-d2e61c3c2d12.PNG)
 <pre>                               </pre>
-![dddd](https://user-images.githubusercontent.com/108368506/205438381-b9c7a803-e4f9-4bcc-926c-e4eea66efabd.PNG)
+![1](https://user-images.githubusercontent.com/108368506/211098980-2f663f0f-4f19-4c10-86fa-d6950fa94123.png)
 <pre>                               </pre>
-![Capture](https://user-images.githubusercontent.com/108368506/208518841-7694183f-621b-4cc8-a1cf-6bc2ef69db04.PNG)
+![2](https://user-images.githubusercontent.com/108368506/211098981-23feada2-94b5-4c0c-b343-eabc622dbd80.PNG)

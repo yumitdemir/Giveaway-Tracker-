@@ -1,7 +1,7 @@
 🔴 Live Demo https://yumitdemir.github.io/Wargon/
 
 ## Short Description
-A giveaway tracker website created with vanilla Javascript and CSS/Bootstrap. Dynamically loads API data and creates cards for every giveaway. Includes a finite future. responsive for medium devices, but for now it needs some little changes for small devices.
+A giveaway tracker website created with vanilla Javascript and CSS/Bootstrap. It dynamically loads API data and creates cards for every giveaway. Includes a finite future. responsive for medium devices, but for now it needs some little changes for small devices.
 
 ## Performance
 I let [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de) run over my application to check for it's **performance, accessibility, use of best practices and SEO optimization**. You can view the results right below this paragraph.

@@ -1,4 +1,4 @@
-🔴 Live Demo https://yumitdemir.github.io/Wargon/
+🔴 Live Demo [https://yumitdemir.github.io/Wargon/](https://yumitdemir.github.io/Giveaway-Tracker-/)
 
 ## Short Description
 A dynamic giveaway tracking website built with vanilla Javascript and CSS/Bootstrap. Utilizes API data to generate cards for each giveaway. Includes responsive design. Great for tracking limited time giveaways
